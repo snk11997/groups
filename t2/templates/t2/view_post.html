@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p>by {{ post.author.username }} on {{ post.timestamp }}</p>
+    <a href="{% url 'index' %}">Back to posts</a>
+</body>
+</html>
+
+
