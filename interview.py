@@ -8,6 +8,6 @@ def fun2(x):
     return x
 fun2(122)
 
-def fun2(x):
+def fun244(x):
     return x
-fun2(122)
+fun244(122)
